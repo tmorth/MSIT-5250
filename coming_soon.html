@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coming Soon</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            display: flex;
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            flex: 1;
+        }
+
+        .left-section {
+            flex: 1;
+			background-image: url('C:Users/taylo/Downloads/base-apparel-coming-soon-master/base-apparel-coming-soon-master/images/bg-pattern-desktop.svg');
+            background-size: cover;
+			background-position: center;
+			padding: 50px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .right-section {
+            flex: 1;
+            background-image: url('C:/Users/taylo/Downloads/base-apparel-coming-soon-master/base-apparel-coming-soon-master/images/hero-desktop.jpg');
+            background-size: cover;
+            background-position: center;
+        }
+
+        .title1 {
+            font-size: 60px;
+            color: #d68e89;
+        }
+		
+		.title2 {
+            font-size: 60px;
+            font-weight: bold;
+            color: #222222;
+        }
+
+        .description {
+            color: #d68e89;
+            font-size: 20px;
+			font-weight: bold;
+			margin-top: 20px;
+            margin-bottom: 30px;
+            line-height: 1.5;
+        }
+		
+		.logo {
+			position: absolute;
+			top: 10px;
+			left:0
+			float: left;
+			height: 40px;
+			width: auto; /* correct proportions to specified height */
+		}
+
+        .input-container {
+            display: flex;
+            align-items: center;
+            border: 1px solid #ddd;
+            border-radius: 30px;
+            overflow: hidden;
+        }
+
+        .input-container input {
+            flex: 1;
+            border: none;
+            padding: 15px;
+            font-size: 14px;
+            outline: none;
+			border-radius: 16px;
+        }
+
+        .input-container button {
+            background: linear-gradient(to right, #FFBAB5, #CF9693);
+            border: none;
+            padding: 15px 30px;
+            cursor: pointer;
+            display: flex;
+            align-items: right;
+            justify-content: right;
+			border-radius: 16px;
+        }
+
+        .input-container button img {
+            width: 20px;
+            height: 20px;
+			border-radius: 16px;
+			padding-left: 5px;
+        }
+
+        .input-container button:hover {
+            background: #d68e89;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+			<a href="#"><img class="logo" src="C:/Users/taylo/Downloads/base-apparel-coming-soon-master/base-apparel-coming-soon-master/images/logo.svg"></a>
+            <div class="title1">WE'RE</div>
+			<div class="title2">COMING<br>SOON</div>
+            <div class="description">
+                Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.
+            </div>
+            <div class="input-container">
+                <input type="email" placeholder="Email Address">
+				<button><img src="C:/Users/taylo/Downloads/base-apparel-coming-soon-master/base-apparel-coming-soon-master/images/icon-arrow.svg" alt="Arrow Icon"></button>
+            </div>
+        </div>
+        <div class="right-section"></div>
+    </div>
+</body>
+</html>
